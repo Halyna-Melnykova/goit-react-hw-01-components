@@ -1,0 +1,18 @@
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.statusOnline {
+  composes: status;
+  background-color: green;
+}
+.statusOffline {
+  composes: status;
+  background-color: red;
+}
